@@ -1,0 +1,20 @@
+[package]
+name = "dilbot"
+version = "0.1.0"
+authors = ["Zachary Alan Johnson <zjohnson366@gmail.com>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# HTTP CLIENT
+reqwest = "0.9.18"
+
+#HTML Parser and Querier
+select = "0.4.2"
+
+#Datetime library
+chrono = "0.4.9"
+
+# Used for saving dilberts in dirs that are common across all OS
+dirs= "4.0.0"
